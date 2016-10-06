@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 全局setting配置 -->
+	<!-- <settings></settings> -->
+	<!-- 别名设置 -->
+<!-- 	<typeAliases>
+		<package name="com.bigdata.ssm.po" />
+	</typeAliases>
+ -->
+
+
+	<!-- 全自动扫描指定包下的mapper 此时要求 mapper 和mapper.xml的名字需要一直 本配置在和spring整合后 不在配置 
+		spring会进行 扫描注册mapper -->
+	<!-- <mappers> <package name="com.bigdata.ssm.mapper" /> </mappers> -->
+
+</configuration>
