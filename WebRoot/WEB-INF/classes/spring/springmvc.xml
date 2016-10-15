@@ -77,4 +77,19 @@
 			<value>5242880</value>
 		</property>
 	</bean>
+
+	<!-- 配置拦截器 -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<!--/** 表示 拦截 根目录包含子目录 -->
+			<mvc:mapping path="/**" />
+			<bean class="com.bigdata.ssm.interceptor.LogsInterceptor"></bean>
+		</mvc:interceptor>
+		<mvc:interceptor>
+			<!--/** 表示 拦截 根目录包含子目录 -->
+			<mvc:mapping path="/**" />
+			<bean class="com.bigdata.ssm.interceptor.LonginInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+
 </beans>

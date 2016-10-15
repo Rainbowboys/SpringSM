@@ -56,5 +56,8 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/validation-api-1.0.0.GA.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-fileupload-1.2.2.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jackson-annotations-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jackson-core-2.5.0.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jackson-databind-2.5.0.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

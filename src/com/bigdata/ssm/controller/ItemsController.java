@@ -61,6 +61,11 @@ public class ItemsController {
 		return itemCustom;
 	}
 
+	@RequestMapping("/testkeytoJson")
+	public @ResponseBody ItemCustom keytoJson(ItemCustom itemCustom) {
+		return itemCustom;
+	}
+
 	// 包装类型传递查询条件
 	@RequestMapping("/queryItems")
 	public String findItems(Model model, QueryItemsVo queryItemsVo) throws Exception {

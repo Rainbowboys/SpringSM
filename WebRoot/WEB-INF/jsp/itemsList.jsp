@@ -9,6 +9,10 @@
 <title>查询商品列表</title>
 </head>
 <body>
+   用户名 :${username}
+	<c:if test="${username!=null}">
+         <a href="${pageContext.request.contextPath }/users/logout.action">注销</a>
+	</c:if>
 	<form
 		action="${pageContext.request.contextPath }/items/queryItems.action"
 		method="post">
